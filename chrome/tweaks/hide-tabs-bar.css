@@ -57,7 +57,7 @@
 
     /* Positioning of the window controls */
     #TabsToolbar .titlebar-buttonbox-container {
-      visibility: visible !important;
+      visibility: hidden !important;
       position: fixed !important;
       height: calc(var(--uc-navbar-height) + var(--uc-tab-top-margin, 0px));
       margin: 0 !important;

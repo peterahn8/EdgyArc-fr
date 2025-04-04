@@ -43,7 +43,7 @@
 
   /* Variables used for the rounded corners. */
   #main-window:not([chromehidden~="toolbar"]) {
-    --uc-tweak-rounded-corners-padding: 4px;
+    --uc-tweak-rounded-corners-padding: 8px;
     --uc-tweak-rounded-corners-radius: 8px;
     --uc-tweak-rounded-corners-shadow:
       0 -.8px 0 0 rgb(0 0 0 / 0.02),
@@ -88,8 +88,8 @@
   }
 
   /* Apply rounded corners to the browser container. */
-  #appcontent .browserStack {
-    margin-inline: var(--uc-tweak-rounded-corners-padding) !important;
+  #browser .browserStack {
+    margin-inline-end: var(--uc-tweak-rounded-corners-padding) !important;
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
     border-radius: var(--uc-tweak-rounded-corners-radius) !important;
     box-shadow: var(--uc-tweak-rounded-corners-shadow) !important;
@@ -131,11 +131,11 @@
 
   /* Apply rounded corners to sidebar. */
   #sidebar-box {
-    margin-inline-start: var(--uc-tweak-rounded-corners-padding) !important;
+    /* margin-inline-start: 10px !important; */
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
-    border-radius: var(--uc-tweak-rounded-corners-radius) !important;
+    /* border-radius: var(--uc-tweak-rounded-corners-radius) !important; */
     overflow: hidden !important;
-    box-shadow: var(--uc-tweak-rounded-corners-shadow) !important;
+    /* box-shadow: var(--uc-tweak-rounded-corners-shadow) !important; */
 
     &[positionend] {
       margin-inline-start: 0 !important;
