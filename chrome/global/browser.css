@@ -89,6 +89,7 @@
 
   /* Apply rounded corners to the browser container. */
   #browser .browserStack {
+    margin-inline-start: var(--uc-tweak-rounded-corners-padding) !important;
     margin-inline-end: var(--uc-tweak-rounded-corners-padding) !important;
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
     border-radius: var(--uc-tweak-rounded-corners-radius) !important;
@@ -131,7 +132,7 @@
 
   /* Apply rounded corners to sidebar. */
   #sidebar-box {
-    /* margin-inline-start: 10px !important; */
+    margin-inline-start: var(--uc-tweak-rounded-corners-padding) !important;
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
     /* border-radius: var(--uc-tweak-rounded-corners-radius) !important; */
     overflow: hidden !important;
