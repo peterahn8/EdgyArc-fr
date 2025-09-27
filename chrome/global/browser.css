@@ -131,7 +131,7 @@
 
   /* Apply rounded corners to sidebar. */
   #sidebar-box {
-    /* margin-inline-start: 10px !important; */
+    margin-inline-start: 4px !important;
     margin-block-end: var(--uc-tweak-rounded-corners-padding) !important;
     /* border-radius: var(--uc-tweak-rounded-corners-radius) !important; */
     overflow: hidden !important;
